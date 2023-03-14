@@ -8,7 +8,7 @@ import PatternBG from 'assets/patternBG.png';
 const packages = [
   {
     name: 'Free Plan',
-    description: 'For Small teams or office',
+    description: 'For outside students',
     buttonText: 'Signup Now',
     points: [
       {
@@ -42,8 +42,8 @@ const packages = [
   {
     header: 'Recommended',
     name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
+    description: 'For fulltime students',
+    priceWithUnit: '₹29.99/',
     buttonText: 'Signup Now',
     points: [
       {

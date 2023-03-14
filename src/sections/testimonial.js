@@ -17,8 +17,8 @@ const data = [
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Surya kumar',
+    designation: '11th Class',
     review: 4,
   },
   {
@@ -27,8 +27,8 @@ const data = [
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Surya kumar',
+    designation: '11th Class',
     review: 5,
   },
   {
@@ -37,8 +37,8 @@ const data = [
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Surya kumar',
+    designation: '11th Class',
     review: 5,
   },
   {
@@ -47,8 +47,8 @@ const data = [
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Surya kumar',
+    designation: '11th Class',
     review: 4,
   },
 ];

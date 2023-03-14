@@ -7,9 +7,9 @@ import Partner from 'assets/partner.png';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  title: 'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat.  anytime & anywhere',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec sed risus imperdietlies best design system guidelines ever. Get your tests delivered at let home collect sample.',
   btnName: 'Get Started',
   btnURL: '#',
 };

@@ -11,7 +11,7 @@ const data = {
   subTitle: 'PAYMENT SECURITY',
   title: 'Secure Payment Transaction System with #1 Ranking',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec sed risus imperdietlies best design system guidelines ever. Get your tests delivered at let home collect sample.',
   btnName: 'Learn More',
   btnURL: '#',
 };

@@ -9,7 +9,7 @@ import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus,',
   features: [
     {
       id: 1,
@@ -17,7 +17,7 @@ const data = {
       altText: 'Smart Features',
       title: 'Smart Features',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus, vitae varius mi maximus consectetur. Vivamus et consectetur nulla, sit amet sagittis dui. Donec a interdum ante, at rutrum ipsum',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const data = {
       altText: 'Secure Contents',
       title: 'Secure Contents',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus, vitae varius mi maximus consectetur. Vivamus et consectetur nulla, sit amet sagittis dui. Donec a interdum ante, at rutrum ipsum',
     },
   ],
 };

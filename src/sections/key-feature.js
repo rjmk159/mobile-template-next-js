@@ -11,26 +11,26 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    altText: 'Lorem ipsum dolor',
+    title: 'Lorem ipsum dolor',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit..',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'Lorem ipsum dolor',
+    title: 'Lorem ipsum dolor',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit..',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'Lorem ipsum dolor',
+    title: 'Lorem ipsum dolor',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
 

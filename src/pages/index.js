@@ -21,7 +21,7 @@ export default function IndexPage() {
       <StickyProvider>
         <Layout>
           
-          <SEO title="Startup Landing 004" />
+          <SEO title="Abhyasetu" />
           <Banner />
           <KeyFeature />
           <CoreFeature />
