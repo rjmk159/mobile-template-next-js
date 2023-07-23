@@ -4,46 +4,84 @@ import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
 import CoreFeatureThumb from 'assets/coreFeature.png';
-import Briefcase from 'assets/core-feature/briefcase.svg';
+import Multilingual from "assets/core-feature/communication-svgrepo-com.svg"
+import Curriculum from 'assets/core-feature/curriicullum.svg';
+import Offline from 'assets/core-feature/offline.svg';
+import Practice from 'assets/core-feature/practice.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus,',
+  title: 'A comprehensive e-learning app for 11th and 12th standard students caters to their educational needs',
   features: [
     {
       id: 1,
-      imgSrc: Briefcase,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      imgSrc: Curriculum,
+      altText: 'Curriculum Aligned Content',
+      title: 'Curriculum Aligned Content',
       text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus, vitae varius mi maximus consectetur. Vivamus et consectetur nulla, sit amet sagittis dui. Donec a interdum ante, at rutrum ipsum',
+        'We ensure that the app covers the syllabus and curriculum of the HSC board accurately. Content is organized by subjects and chapters, making it easy for students to navigate.',
+    },
+
+    {
+      id: 2,
+      imgSrc: Offline,
+      altText: 'Offline Access',
+      title: 'Offline Access',
+      text:
+        ' We allow students to download certain content for offline access, ensuring uninterrupted learning even in areas with limited internet connectivity.',
+    },
+  ],
+  features2: [
+    {
+      id: 2,
+      imgSrc: Practice,
+      altText: 'Practice Exercises',
+      title: 'Practice Exercises',
+      text:
+        'Provide a wide range of practice exercises, including multiple-choice questions, fill in the blanks, and short answer questions, to help students reinforce their understanding of the concepts taught.',
     },
     {
       id: 2,
-      imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      imgSrc: Multilingual,
+      altText: 'Multilingual Support',
+      title: 'Multilingual Support',
       text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim rhoncus purus, vitae varius mi maximus consectetur. Vivamus et consectetur nulla, sit amet sagittis dui. Donec a interdum ante, at rutrum ipsum',
+        'Provide multilingual support to cater to students from both English and Marathi Medium Schools',
     },
+
   ],
 };
 
 export default function CoreFeature() {
   return (
     <section sx={styles.coreFeature}>
+      <Box sx={styles.headingTop}>
+        <TextFeature subTitle={data.subTitle} title={data.title} />
+      </Box>
       <Container sx={styles.containerBox}>
-        <Box sx={styles.thumbnail}>
+        {/* <Box sx={styles.thumbnail}>
           <Image src={CoreFeatureThumb} alt="Thumbnail" />
-        </Box>
+        </Box> */}
         <Box sx={styles.contentBox}>
-          <Box sx={styles.headingTop}>
-            <TextFeature subTitle={data.subTitle} title={data.title} />
-          </Box>
 
           <Grid gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
+              <Box sx={styles.card} key={item.id}>
+                <Image src={item.imgSrc} alt={item.altText} sx={styles.img} />
+
+                <Box sx={styles.wrapper}>
+                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
+                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                </Box>
+              </Box>
+            ))}
+          </Grid>
+        </Box>
+        <Box sx={styles.contentBox}>
+
+          <Grid gap="15px 0" columns={1} sx={styles.grid}>
+            {data.features2.map((item) => (
               <Box sx={styles.card} key={item.id}>
                 <Image src={item.imgSrc} alt={item.altText} sx={styles.img} />
 

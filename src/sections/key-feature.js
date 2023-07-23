@@ -11,26 +11,26 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Lorem ipsum dolor',
-    title: 'Lorem ipsum dolor',
+    altText: 'Concepts made Crystal Clear',
+    title: 'Concepts made Crystal Clear',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit..',
+      'Simple and engaging video lessons',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Lorem ipsum dolor',
-    title: 'Lorem ipsum dolor',
+    altText: 'The only digital platform providing video lessons in Marathi and English',
+    title: 'The only digital platform providing video lessons in Marathi and English',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit..',
+      'Learn anytime, anywhere in language of your choice',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Lorem ipsum dolor',
-    title: 'Lorem ipsum dolor',
+    altText: 'Pocket Friendly',
+    title: 'Pocket Friendly',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      'We dont earn on things that you don\'t need. Learn from experts and pay for what you need.',
   },
 ];
 
