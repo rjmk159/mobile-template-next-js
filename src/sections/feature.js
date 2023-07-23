@@ -15,9 +15,9 @@ const data = [
     id: 1,
     imgSrc: Smart,
     altText: 'Smart',
-    title: 'Smart Features',
+    title: 'Smart Quizzes',
     text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+      'We provide smart quizzess from time to time to help pupil remember the concepts.',
   },
   {
     id: 2,
@@ -25,40 +25,40 @@ const data = [
     altText: 'Performance',
     title: 'Fast Performance',
     text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+      'We put extra efforst to make our streams faster to get you an uninterrupted experience.',
   },
   {
     id: 3,
     imgSrc: Cloud,
     altText: 'Content',
-    title: 'Unlimited Content',
+    title: 'To the Point Content',
     text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+      'Short and consize videos dedicated to each topic, for quick and easy grasping',
   },
-  {
-    id: 4,
-    imgSrc: Setting,
-    altText: 'Customization',
-    title: 'Unlimited Customization',
-    text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
-  },
-  {
-    id: 5,
-    imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
-    text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
-  },
-  {
-    id: 6,
-    imgSrc: Chat,
-    altText: 'Support',
-    title: 'Customer Support',
-    text:
-      'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
-  },
+  // {
+  //   id: 4,
+  //   imgSrc: Setting,
+  //   altText: 'Customization',
+  //   title: 'Unlimited Customization',
+  //   text:
+  //     'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+  // },
+  // {
+  //   id: 5,
+  //   imgSrc: Design,
+  //   altText: 'Productivity',
+  //   title: 'Boost Productivity',
+  //   text:
+  //     'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+  // },
+  // {
+  //   id: 6,
+  //   imgSrc: Chat,
+  //   altText: 'Support',
+  //   title: 'Customer Support',
+  //   text:
+  //     'Nam hendrerit lectus ac augue tristique, ac blandit mi volutpat. Nulla pharetra libero sed consequat dictum.',
+  // },
 ];
 
 export default function Feature() {

@@ -6,7 +6,8 @@ import ModalVideo from "react-modal-video";
 import { Link } from "components/link";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
-import BannerThumb from "assets/banner-thumb.png";
+import BannerThumb from "assets/bannerimht.svg";
+import PlayStore from "assets/play-store.png";
 
 import client1 from "assets/sponsor/paypal.svg";
 import client2 from "assets/sponsor/google.svg";
@@ -44,18 +45,15 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Lorem ipsum dolor sit amet, consectetur elit.
+          Digital Joyful Learning
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-            dignissim rhoncus purus, vitae varius mi maximus consectetur.
-            Vivamus et consectetur nulla, sit amet sagittis dui. Donec a
-            interdum ante, at rutrum ipsum.
+          Worried about 11th and 12th? We got you!
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
-            </Button>
+            {/* <Button variant="whiteButton" aria-label="Get Started"> */}
+              <Image src={PlayStore} sx={styles.img}/>
+            {/* </Button> */}
             <>
               {/* <ModalVideo
                 channel="youtube"

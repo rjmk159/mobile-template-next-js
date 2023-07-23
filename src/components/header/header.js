@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button } from "theme-ui";
+import { jsx, Container, Flex, Button ,Image} from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
@@ -8,7 +8,7 @@ import LogoWhite from "assets/logo.png";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
-
+import PlayStore from "assets/play-store.png";
 export default function Header({ className }) {
   return (
     <DrawerProvider>
@@ -32,14 +32,14 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Button
+          {/* <Button
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
           >
             Get Started
-          </Button>
-
+          </Button> */}
+          <Image src={PlayStore} sx={styles.img}/>
           <MobileDrawer />
         </Container>
       </header>

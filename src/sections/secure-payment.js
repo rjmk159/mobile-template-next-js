@@ -4,14 +4,14 @@ import { Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import PaymentThumb from 'assets/paymentThumb.png';
+import PaymentThumb from 'assets/payment.svg';
 import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
   subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  title: 'Secure Payment Transactions',
   description:
-    'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec sed risus imperdietlies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'At Abhyasetu, the security of your payment transactions is of utmost importance to us. We have implemented robust measures to ensure a safe and secure payment environment for all our users. When making payments on our e-learning app, you can rest assured that your financial information is protected',
   btnName: 'Learn More',
   btnURL: '#',
 };
@@ -29,8 +29,8 @@ export default function SecurePayment() {
             subTitle={data.subTitle}
             title={data.title}
             description={data.description}
-            btnName={data.btnName}
-            btnURL={data.btnURL}
+            // btnName={data.btnName}
+            // btnURL={data.btnURL}
           />
         </Box>
       </Container>

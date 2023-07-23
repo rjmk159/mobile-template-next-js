@@ -1,7 +1,9 @@
 /** @jsx jsx */
 import { jsx, Heading, Box, Container, Text } from 'theme-ui';
 import { Link } from 'components/link';
+import Image from 'components/image';
 import menuItems from './footer.data';
+import About from 'assets/aboutonline.svg';
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
@@ -22,6 +24,9 @@ export default function Footer() {
               </nav>
             </Box>
           ))}
+                  <Box sx={styles.thumbnail}>
+          <Image src={About} alt="ABOUT US"/>
+        </Box>
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>

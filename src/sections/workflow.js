@@ -10,25 +10,25 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Signup to Abhyasetu',
     text:
       'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec.',
   },
   {
     id: 2,
-    title: 'ac convallis risus tempus vitae',
+    title: 'Select Language and Subject',
     text:
       'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Pay for chapter you need to study',
     text:
       'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Learn from the best',
     text:
       'Phasellus iaculis id lectus in sodales. Morbi a pharetra dolor. Donec.',
   },
@@ -50,7 +50,7 @@ export default function WorkFlow() {
               <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                {/* <Text sx={styles.wrapper.subTitle}>{item.text}</Text> */}
               </Box>
             </Box>
           ))}
