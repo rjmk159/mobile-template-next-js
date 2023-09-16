@@ -33,7 +33,7 @@ export default [
       // },
       {
         path: '/',
-        label: 'Privacy Policy',
+        label: 'Terms of Use Policy',
       },
       // {
       //   path: '/',
