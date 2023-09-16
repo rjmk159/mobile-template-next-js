@@ -32,7 +32,7 @@ export default [
       //   label: 'Return Policy ',
       // },
       {
-        path: '/',
+        path: '/policy',
         label: 'Terms of Use Policy',
       },
       // {
