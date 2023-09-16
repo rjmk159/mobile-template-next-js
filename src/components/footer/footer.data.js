@@ -27,18 +27,18 @@ export default [
   {
     header: 'Our Information',
     items: [
-      // {
-      //   path: '/',
-      //   label: 'Return Policy ',
-      // },
+      {
+        path: 'https://merchant.razorpay.com/policy/McujA7RxznHbx1/privacy',
+        label: 'Privacy Policy ',
+      },
       {
         path: '/policy',
         label: 'Terms of Use Policy',
       },
-      // {
-      //   path: '/',
-      //   label: 'Terms & Conditions',
-      // },
+      {
+        path: 'https://merchant.razorpay.com/policy/McujA7RxznHbx1/shipping',
+        label: 'Shipping and Delivery Policy',
+      },
       // {
       //   path: '/',
       //   label: 'Site Map',
